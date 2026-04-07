@@ -5,13 +5,13 @@ function anadir_libros(){
     const authorName = document.getElementById("authorName").value;
     const bookDescription = document.getElementById("bookDescription").value;
     const pagesNumber = document.getElementById("pagesNumber").value;
-    if (bookName && authorName && bookDescription && !isNaN(pagesNumber)){
+    if (bookName && authorName && bookDescription && !isNaN(parseInt(pagesNumber))){
 
         const book = {
             name: bookName,
             authorName: authorName,
             bookDescription: bookDescription,
-            pagesNumber: pagesNumber,
+            pagesNumber: parseInt(pagesNumber)
         };
         books.push(book);
         showbooks()
@@ -26,7 +26,8 @@ function showbooks() {
         <p><strong>Nombre del autor:</strong> ${book.authorName}</p>
         <p><strong>Descripción del libro:</strong> ${book.bookDescription}</p>
         <p><strong>Número de páginas:</strong> ${book.pagesNumber} página(s)</p>
-        <button onclick="editbook(${index})">Editar</button>`
+        <button onclick="editbook(${index})">Editar</button>
+        <button onclick="deleteBooks(${index})">Eliminar</button>`
     );
     document.getElementById('books').innerHTML = booksDiv.join('');
 } 
@@ -45,4 +46,9 @@ function showbooks() {
     document.getElementById("authorName").value = ''
     document.getElementById("bookDescription").value = ''
     document.getElementById("pagesNumber").value = ''
+    } 
+
+    function deleteBooks(index){
+        books.splice(index, 1);
+        showbooks()
     }
