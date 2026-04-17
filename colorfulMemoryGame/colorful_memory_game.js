@@ -43,6 +43,7 @@ function handleCardClick(event) {
 
 function checkMatch() {
     const [card1, card2] = selectedCards;
+    //Evalua si comparten semenjanzas y sube el puntaje si es asi
     if (card1.dataset.color === card2.dataset.color) {
         card1.classList.add('matched');
         card2.classList.add('matched');
