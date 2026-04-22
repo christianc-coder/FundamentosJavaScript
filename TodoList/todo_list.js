@@ -38,12 +38,12 @@ function toggleTask(index){
     displayTasks(); 
 }
 
-// Limpia las tareas completadas
+// Limpia/elimina las tareas completadas 
 function clearCompletedTasks(){
     tasks = tasks.filter( task => !task.completed);
     displayTasks();
 }
-
+//Limpia el array y empieza todo desde el inicio
 delateTaskBtn.addEventListener( "click", () => {
    tasks.length = 0; 
    displayTasks();
