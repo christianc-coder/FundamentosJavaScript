@@ -1,0 +1,66 @@
+{
+    "articles": [
+      {
+        "title": "La importancia del ejercicio regular",
+        "description": "Este artículo analiza los numerosos beneficios del ejercicio regular, incluyendo la mejora de la salud cardiovascular, músculos más fuertes, mejor salud mental y mayor longevidad.",
+        "ways_to_achieve": [
+          "Realiza al menos 150 minutos de actividad aeróbica de intensidad moderada por semana.",
+          "Incorpora ejercicios de entrenamiento de fuerza para los principales grupos musculares al menos dos veces por semana.",
+          "Encuentra actividades físicas que disfrutes, como caminar, andar en bicicleta, nadar o bailar."
+        ],
+        "benefits": [
+          "Mejora la condición cardiovascular y reduce el riesgo de enfermedades cardíacas.",
+          "Músculos más fuertes y mejor densidad ósea.",
+          "Mejor estado de ánimo y menor riesgo de depresión y ansiedad.",
+          "Mayor esperanza de vida y mejor calidad de vida en general."
+        ]
+      },
+      {
+        "title": "Hábitos alimenticios saludables para una vida equilibrada",
+        "description": "Aprende sobre los fundamentos de una dieta equilibrada, incluyendo consejos para incorporar frutas, verduras, granos integrales, proteínas magras y grasas saludables en tus comidas.",
+        "ways_to_achieve": [
+          "Consume diariamente una variedad de frutas y verduras de colores.",
+          "Opta por granos integrales como arroz integral, quinoa y pan integral.",
+          "Elige fuentes de proteína magra como pollo, pescado, legumbres y frutos secos.",
+          "Incorpora grasas saludables de fuentes como aguacate, aceite de oliva y frutos secos."
+        ],
+        "benefits": [
+          "Mejor digestión y absorción de nutrientes.",
+          "Control del peso y reducción del riesgo de enfermedades crónicas como la diabetes y problemas cardíacos.",
+          "Aumento de los niveles de energía y bienestar general.",
+          "Mejor control de los antojos y estabilidad emocional."
+        ]
+      },
+      {
+        "title": "Manejo del estrés para una mejor salud",
+        "description": "Descubre estrategias efectivas para manejar el estrés, como la meditación, el ejercicio, el sueño adecuado y el fortalecimiento de las conexiones sociales, para mejorar el bienestar general.",
+        "ways_to_achieve": [
+          "Practica meditación de atención plena o ejercicios de respiración profunda.",
+          "Realiza actividad física regular o yoga.",
+          "Prioriza y asegura un descanso adecuado de 7 a 9 horas por noche.",
+          "Pasa tiempo de calidad con amigos, familia o grupos de apoyo."
+        ],
+        "benefits": [
+          "Reducción de los niveles de cortisol y menor riesgo de enfermedades relacionadas con el estrés.",
+          "Mejor estado de ánimo y mayor claridad mental.",
+          "Mejora del sistema inmunológico y la salud general.",
+          "Mayor apoyo social y resiliencia frente a situaciones estresantes."
+        ]
+      },
+      {
+        "title": "La importancia de dormir lo suficiente",
+        "description": "Este artículo explora la importancia del sueño para la salud, analizando su papel en la función cognitiva, la regulación del sistema inmunológico y la salud física y mental en general.",
+        "ways_to_achieve": [
+          "Establece un horario de sueño constante, acostándote y despertándote a la misma hora todos los días.",
+          "Crea una rutina relajante antes de dormir para indicarle a tu cuerpo que es hora de descansar.",
+          "Limita el uso de pantallas antes de dormir y crea un ambiente cómodo para el sueño."
+        ],
+        "benefits": [
+          "Mejora la función cognitiva, la concentración y la memoria.",
+          "Fortalece el sistema inmunológico y la capacidad de combatir infecciones.",
+          "Reduce el riesgo de enfermedades cardíacas, obesidad y problemas de salud mental.",
+          "Mejora el estado de ánimo y la regulación emocional."
+        ]
+      }
+    ]
+  }
