@@ -1,0 +1,22 @@
+{
+  "noticias": [
+    {
+      "titulo": "Nuevo avance en inteligencia artificial",
+      "reportero": "María López",
+      "descripcion": "Un equipo internacional de investigadores ha desarrollado un nuevo modelo de inteligencia artificial que mejora significativamente la precisión en el procesamiento de datos complejos. Este avance podría aplicarse en sectores como la medicina, la educación y la automatización industrial, reduciendo costos y aumentando la eficiencia en múltiples áreas.",
+      "fecha": "2026-04-27"
+    },
+    {
+      "titulo": "Economía global muestra señales de recuperación",
+      "reportero": "Carlos Pérez",
+      "descripcion": "Los últimos informes económicos indican que varias economías importantes están mostrando signos de recuperación tras un periodo de desaceleración. Expertos destacan el aumento en la inversión extranjera, la estabilidad en los mercados financieros y el crecimiento del empleo como factores clave que impulsan esta tendencia positiva a nivel mundial.",
+      "fecha": "2026-04-26"
+    },
+    {
+      "titulo": "Descubren nueva especie en la Amazonía",
+      "reportero": "Ana Torres",
+      "descripcion": "Un grupo de científicos ha descubierto una nueva especie de anfibio en una zona remota de la Amazonía. El hallazgo resalta la enorme biodiversidad de la región y la importancia de su conservación, ya que muchas especies aún no han sido estudiadas. Los investigadores advierten que la deforestación representa una amenaza directa para estos ecosistemas únicos.",
+      "fecha": "2026-04-25"
+    }
+  ]
+}

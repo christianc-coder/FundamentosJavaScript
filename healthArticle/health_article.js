@@ -51,3 +51,20 @@ xhr.onload = function(){
 }
 
 xhr.send();
+
+const xhr2 = new XMLHttpRequest();
+const url2 = './health_article.json';
+
+xhr2.open('GET', url2, true);
+
+xhr2.responseType = 'json';
+
+xhr2.onload = function(){
+    const NoticiasJson = xhr2.response.noticias;
+    NoticiasJson.forEach(function(){})
+    
+}
+
+
+
+
