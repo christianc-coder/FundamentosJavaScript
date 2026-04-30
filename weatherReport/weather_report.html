@@ -6,13 +6,24 @@
 <body>
    <h1>Reporte del clima</h1>
 
+  <!-- btenerClima seccion--> 
   <form id="weatherForm">
     <label for="city">ingresa la ciudad:</label>
     <input type="text" id="city" name="city">
     <button type="submit">Obtener clima</button>
   </form>
 
-  <div id="weatherInfo"></div>
+  <!-- lan&lon seccion -->
+  <form id="lan&lonForm">
+    <label for="lan&lon">Ingrese la Latitud y Longitud</label>
+    <input type="number" id= "lat" name="lat">
+    <input type="number" id= "lon" name="lon">
+    <button type="submit">Enviar</button>  
+ </form>
+
+    <div id="weatherInfo"></div>
+    <div id="lan&lonInfo"></div>
+
 <script src="weather_report.js"></script>
 </body>
 </html>

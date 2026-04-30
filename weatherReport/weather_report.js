@@ -21,3 +21,30 @@
    });
 };
 document.getElementById('weatherForm').addEventListener('submit', showWeatherDetails);  
+
+function addLanLon(event){
+
+    event.preventDefault();
+    const latInput = document.getElementById('lat').value;
+    const lonInput = document.getElementById('lon').value;
+    const lat_lonInfo = document.getElementById('lan&lonInfo');
+
+    apiKey2 = 'a44c411dfafb4xxxxxxxx';
+    apiUrl2 = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey2}&lat=${latInput}&lon=${lonInput}&days=5&lang=es`;
+
+    fetch(apiUrl2)
+    .then( response => response.json())
+    .then( data => {
+        lat_lonInfo.innerHTML = `
+        <h2>Ubicacion: ${data.location.name}</h2>
+        <p>Salida de luna: ${data.astro.moonrise}</p>
+        <p>fase lunar: ${data.astro.moon_phase}</p>`;
+
+    })
+    .catch( error => {
+        console.error('hubo un error', error);
+        lat_lonInfo.textContent = 'surgio un error'
+    });
+
+}
+document.getElementById('lan&lonForm').addEventListener('submit',addLanLon);
